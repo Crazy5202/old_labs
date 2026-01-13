@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -File | Where-Object { $_.Length -gt 50MB }
